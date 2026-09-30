@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; script-src 'self'; connect-src 'self' https://api.github.com; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>EVCore Roadmap</title>
+<meta name="description" content="Where CS Harness is with EVCore Studio, Studio Pro and the EVCore D1 diagnostic device, updated automatically from our development board.">
+<meta name="theme-color" content="#07090c">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap">
+<link rel="stylesheet" href="./roadmap.css">
+<script type="module" src="./roadmap.js"></script>
+</head>
+<body>
+<header class="bar"><div class="wrap bar-in">
+  <a class="brand" href="https://csharness.com/?utm_source=roadmap&amp;utm_medium=roadmap">CS HARNESS</a>
+  <nav class="bar-nav" aria-label="Links">
+    <a href="https://demo.csharness.com/?utm_source=roadmap">Try the demo</a>
+    <a href="https://csharness.com/pages/software?utm_source=roadmap&amp;utm_medium=roadmap">Studio</a>
+  </nav>
+</div></header>
+
+<main>
+<section class="hero"><div class="wrap">
+  <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span>Live roadmap</p>
+  <h1>Building <span>EVCore</span> in the open</h1>
+  <p class="lead">Where we are with EVCore Studio, Studio Pro and the EVCore D1 diagnostic device. This page updates itself from our development board, so what you see is where the work actually stands.</p>
+  <div class="summary" id="summary" aria-live="polite"></div>
+  <p class="updated" id="updated"></p>
+</div></section>
+
+<section class="board"><div class="wrap">
+  <div class="filters" role="group" aria-label="Show">
+    <button data-filter="all" class="on" aria-pressed="true">Everything</button>
+    <button data-filter="shipped" aria-pressed="false">Shipped</button>
+    <button data-filter="in_progress" aria-pressed="false">In progress</button>
+    <button data-filter="planned" aria-pressed="false">Planned</button>
+  </div>
+  <div id="products"><p class="loading">Loading the roadmap…</p></div>
+  <noscript><p class="loading">The roadmap needs JavaScript. See <a href="https://csharness.com">csharness.com</a> for news.</p></noscript>
+</div></section>
+
+<section class="releases"><div class="wrap">
+  <h2>Latest Studio releases</h2>
+  <p class="section-lead">Every Studio update, as it ships. Customers get them automatically.</p>
+  <ol class="release-list" id="releases"><li class="loading">Loading releases…</li></ol>
+</div></section>
+
+<section class="follow"><div class="wrap follow-in">
+  <div><h2>Follow along</h2><p>Try Studio in your browser, get news about the EVCore D1, or tell us what you want it to do.</p></div>
+  <div class="follow-links">
+    <a class="btn primary" href="https://demo.csharness.com/studio/?tour=1&amp;utm_source=roadmap">Try the 2-minute demo</a>
+    <a class="btn" href="https://csharness.com/pages/software?utm_source=roadmap&amp;utm_medium=roadmap">Get D1 news</a>
+    <a class="btn" href="https://csharness.com/pages/feedback?utm_source=roadmap&amp;utm_medium=roadmap">Suggest a feature</a>
+  </div>
+</div></section>
+</main>
+
+<footer class="foot"><div class="wrap">
+  <p>Status and progress come from our development board every hour. Plans can change as we learn; we only show a date when we are confident in it.</p>
+  <p class="fine">© CS Harness · 405 W Greenland Ave, Warren, MI 48091 · <a href="mailto:support@csharness.com">support@csharness.com</a></p>
+</div></footer>
+</body>
+</html>

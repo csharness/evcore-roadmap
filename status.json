@@ -1,0 +1,101 @@
+{
+  "updated": "2026-09-29T04:02:20.217Z",
+  "milestones": [
+    {
+      "id": "studio-beta",
+      "status": "shipped",
+      "done": 5,
+      "total": 5
+    },
+    {
+      "id": "studio-feedback",
+      "status": "shipped",
+      "done": null,
+      "total": null
+    },
+    {
+      "id": "studio-onboarding",
+      "status": "shipped",
+      "done": null,
+      "total": null
+    },
+    {
+      "id": "studio-signed",
+      "status": "in_progress",
+      "done": 0,
+      "total": 2
+    },
+    {
+      "id": "studio-library",
+      "status": "in_progress",
+      "done": 4,
+      "total": 8
+    },
+    {
+      "id": "studio-evidence",
+      "status": "planned",
+      "done": 0,
+      "total": 4
+    },
+    {
+      "id": "studio-help",
+      "status": "planned",
+      "done": 0,
+      "total": 1
+    },
+    {
+      "id": "studio-field",
+      "status": "planned",
+      "done": 0,
+      "total": 1
+    },
+    {
+      "id": "pro-workflow",
+      "status": "in_progress",
+      "done": 3,
+      "total": 4
+    },
+    {
+      "id": "pro-live",
+      "status": "planned",
+      "done": 0,
+      "total": 2
+    },
+    {
+      "id": "d1-foundation",
+      "status": "in_progress",
+      "done": 14,
+      "total": 15
+    },
+    {
+      "id": "d1-procedures",
+      "status": "planned",
+      "done": 0,
+      "total": 28
+    },
+    {
+      "id": "d1-protocol",
+      "status": "planned",
+      "done": 0,
+      "total": 8
+    },
+    {
+      "id": "d1-hardware",
+      "status": "in_progress",
+      "done": 0,
+      "total": 39
+    },
+    {
+      "id": "d1-validation",
+      "status": "planned",
+      "done": 0,
+      "total": 2
+    },
+    {
+      "id": "d1-production",
+      "status": "in_progress",
+      "done": 0,
+      "total": 3
+    }
+  ]
+}
