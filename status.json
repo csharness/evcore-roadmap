@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-29T04:02:20.217Z",
+  "updated": "2026-10-22T15:49:05.899Z",
   "milestones": [
     {
       "id": "studio-beta",
-      "status": "shipped",
-      "done": 5,
-      "total": 5
+      "status": "planned",
+      "done": 0,
+      "total": 0
     },
     {
       "id": "studio-feedback",
@@ -41,25 +41,25 @@
       "id": "studio-help",
       "status": "planned",
       "done": 0,
-      "total": 1
+      "total": 0
     },
     {
       "id": "studio-field",
       "status": "planned",
       "done": 0,
-      "total": 1
+      "total": 0
     },
     {
       "id": "pro-workflow",
-      "status": "in_progress",
-      "done": 3,
-      "total": 4
+      "status": "shipped",
+      "done": 1,
+      "total": 1
     },
     {
       "id": "pro-live",
       "status": "planned",
       "done": 0,
-      "total": 2
+      "total": 0
     },
     {
       "id": "d1-foundation",
@@ -89,13 +89,13 @@
       "id": "d1-validation",
       "status": "planned",
       "done": 0,
-      "total": 2
+      "total": 0
     },
     {
       "id": "d1-production",
-      "status": "in_progress",
+      "status": "planned",
       "done": 0,
-      "total": 3
+      "total": 0
     }
   ]
 }
